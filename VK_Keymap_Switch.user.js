@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        VK-KeymapSwitch
 // @namespace   VKKMS_SH
-// @description Translating 'ghbftn' to 'привет' and back
+// @description Translating 'ghbftn' to 'РїСЂРёРІРµС‚' and back
 // @include     https://vk.com/*
 // @include     http://vk.com/*
 // @version     1.0
@@ -10,19 +10,19 @@
 // ==/UserScript==
 
 var map = {};
-map["q"] = "й"; map["w"] = "ц"; map["e"] = "у"; map["r"] = "к"; map["t"] = "е";
-map["y"] = "н"; map["u"] = "г"; map["i"] = "ш"; map["o"] = "щ"; map["p"] = "з"; 
-map["["] = "х"; map["]"] = "ъ"; map["a"] = "ф"; map["s"] = "ы"; map["d"] = "в";
-map["f"] = "а"; map["g"] = "п"; map["h"] = "р"; map["j"] = "о"; map["k"] = "л";
-map["l"] = "д"; map[";"] = "ж"; map["'"] = "э"; map["z"] = "я"; map["x"] = "ч";
-map["c"] = "с"; map["v"] = "м"; map["b"] = "и"; map["n"] = "т"; map["m"] = "ь";
-map[","] = "б"; map["."] = "ю"; map["/"] = "."; map["Q"] = "Й"; map["W"] = "Ц";
-map["E"] = "У"; map["R"] = "К"; map["T"] = "Е"; map["Y"] = "Н"; map["U"] = "Г";
-map["I"] = "Ш"; map["O"] = "Щ"; map["P"] = "З"; map["{"] = "Х"; map["}"] = "Ъ";
-map["A"] = "Ф"; map["S"] = "Ы"; map["D"] = "В"; map["F"] = "А"; map["G"] = "П";
-map["H"] = "Р"; map["J"] = "О"; map["K"] = "Л"; map["L"] = "Д"; map[":"] = "Ж";
-map['"'] = "Э"; map["Z"] = "Я"; map["X"] = "Ч"; map["C"] = "С"; map["V"] = "М";
-map["B"] = "И"; map["N"] = "Т"; map["M"] = "Ь"; map["<"] = "Б"; map[">"] = "Ю";
+map["q"] = "Р№"; map["w"] = "С†"; map["e"] = "Сѓ"; map["r"] = "Рє"; map["t"] = "Рµ";
+map["y"] = "РЅ"; map["u"] = "Рі"; map["i"] = "С€"; map["o"] = "С‰"; map["p"] = "Р·"; 
+map["["] = "С…"; map["]"] = "СЉ"; map["a"] = "С„"; map["s"] = "С‹"; map["d"] = "РІ";
+map["f"] = "Р°"; map["g"] = "Рї"; map["h"] = "СЂ"; map["j"] = "Рѕ"; map["k"] = "Р»";
+map["l"] = "Рґ"; map[";"] = "Р¶"; map["'"] = "СЌ"; map["z"] = "СЏ"; map["x"] = "С‡";
+map["c"] = "СЃ"; map["v"] = "Рј"; map["b"] = "Рё"; map["n"] = "С‚"; map["m"] = "СЊ";
+map[","] = "Р±"; map["."] = "СЋ"; map["/"] = "."; map["Q"] = "Р™"; map["W"] = "Р¦";
+map["E"] = "РЈ"; map["R"] = "Рљ"; map["T"] = "Р•"; map["Y"] = "Рќ"; map["U"] = "Р“";
+map["I"] = "РЁ"; map["O"] = "Р©"; map["P"] = "Р—"; map["{"] = "РҐ"; map["}"] = "РЄ";
+map["A"] = "Р¤"; map["S"] = "Р«"; map["D"] = "Р’"; map["F"] = "Рђ"; map["G"] = "Рџ";
+map["H"] = "Р "; map["J"] = "Рћ"; map["K"] = "Р›"; map["L"] = "Р”"; map[":"] = "Р–";
+map['"'] = "Р­"; map["Z"] = "РЇ"; map["X"] = "Р§"; map["C"] = "РЎ"; map["V"] = "Рњ";
+map["B"] = "Р"; map["N"] = "Рў"; map["M"] = "Р¬"; map["<"] = "Р‘"; map[">"] = "Р®";
 map["?"] = ",";
 
 function addButtons() 
